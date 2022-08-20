@@ -1,3 +1,5 @@
+// Contamination #1 -String-
+// 8 kyu
 
  function contamination(text, char){
     //text before = "abc"
@@ -12,7 +14,10 @@
   }
   
   console.log(contamination('will', 'z'));
-  
+
+// You only need one - Beginner
+// 8 kyu
+
   function check(a, x) {
     // your code here
     let status = false;
@@ -26,10 +31,12 @@
 
   console.log(check(['a',4], 5))
 
+  const checkRF = (a,x) => a.includes(x);
 
-  /*
-  Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
+  console.log(checkRF(['a',4],5))
 
+
+/* 
 I love you
 a little
 a lot
@@ -39,7 +46,7 @@ not at all
 When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
 
 Your goal in this kata is to determine which phrase the girls would say for a flower of a given number of petals, where nb_petals > 0.
-  */
+*/
 
 
 console.log(howMuchILoveYou(1))
@@ -55,6 +62,8 @@ function howMuchILoveYou(nbPetals) {
   return arr[nbPetals-1];
  }
 
+// Beginner - Lost Without a Map
+// 8 kyu
 
  function maps(x){
   let dub = x.map(v => v*2);
@@ -68,6 +77,8 @@ console.log(maps([1,5,3]))
 
 //Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
+// Sum of positive
+// 8 kyu
 
 function positiveSum(arr) {
     let sumArr = 0;
